@@ -106,3 +106,30 @@ p {
 .about-me {
   margin-top: 100px;
 }
+.app-header {
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  .left-aligned-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .m-device-button {
+    display: block;
+    width: 100%;
+  }
+  .app-description {
+    text-align: center;
+  }
+  .app-header {
+    text-align: center;
+  }
+}
